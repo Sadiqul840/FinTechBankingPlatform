@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class FintechUserServiceApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(FintechUserServiceApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(FintechUserServiceApplication.class, args);
+    }
 
 }
