@@ -1,20 +1,17 @@
-package com.arman.fintech.user.entity;
-import jakarta.persistence.*;
+package com.arman.fintech.user.dto;
+
+import com.arman.fintech.user.entity.UserEntity;
+import jakarta.persistence.Column;
 import lombok.Data;
 
 import java.time.LocalDateTime;
-import java.util.Optional;
-
-
-@Entity
 @Data
-@Table(name = "userentity")
-public class UserEntity {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+public class UserResponseDto {
+//    UserEntity user;
+//    UserResponseDto (UserEntity user){
+//        this.user=user;
+//    }
     private int id;
-
-    @Column(nullable = false)
     private String name;
     private int age;
     private String address;
@@ -22,8 +19,6 @@ public class UserEntity {
     private boolean isActive;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
-    private boolean isDelete;
-
-
+//    private boolean isDelete;
 
 }

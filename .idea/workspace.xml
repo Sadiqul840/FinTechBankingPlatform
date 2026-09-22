@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cc384d48-6c17-489b-8ddb-c4597fcbd001" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/fintech-user-service/src/main/java/com/arman/fintech/user/dto/UserRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fintech-user-service/src/main/java/com/arman/fintech/user/dto/UserResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fintech-user-service/src/main/java/com/arman/fintech/user/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fintech-user-service/src/main/java/com/arman/fintech/user/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fintech-user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fintech-user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fintech-user-service/src/main/java/com/arman/fintech/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech-user-service/src/main/java/com/arman/fintech/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fintech-user-service/src/main/java/com/arman/fintech/user/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech-user-service/src/main/java/com/arman/fintech/user/entity/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fintech-user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fintech-user-service/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;skkarman789&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Sadiqul840/FinTechBankingPlatform.git&quot;,
+    &quot;accountId&quot;: &quot;f9e387bd-295d-4153-ad58-2fda1ee4ae09&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3JUCHvda0MWdIyQo3BpQKLgpswM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FintechUserServiceApplication (1).executor": "Run",
+    "Application.FintechUserServiceApplication.executor": "Run",
+    "Application.userService.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.FintechAuthServiceApplication.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "Arman",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.build.tools.auto.reload": "SELECTIVE",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "settings.editor.splitter.proportion": "0.21992032"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SpringJavaProjects\FinTechBankingPlatform" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.FintechUserServiceApplication (1)">
+    <configuration name="FintechUserServiceApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.arman.fintech.user.FintechUserServiceApplication" />
+      <module name="fintech-user-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.arman.fintech.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FintechUserServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="26" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.arman.fintech.user.FintechUserServiceApplication" />
+      <module name="fintech-auth-service.fintech-user-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.arman.fintech.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="fintech-auth-service.fintech-user-service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="fintech-auth-service.fintech-user-service" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FintechAuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="fintech-auth-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sadiq.fintech.auth.FintechAuthServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sadiq.fintech.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FintechUserServiceApplication (1)" />
+        <item itemvalue="Spring Boot.FintechAuthServiceApplication" />
+        <item itemvalue="Application.FintechUserServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc384d48-6c17-489b-8ddb-c4597fcbd001" name="Changes" comment="" />
+      <created>1789706176032</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1789706176032</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
