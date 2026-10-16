@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc384d48-6c17-489b-8ddb-c4597fcbd001" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/fintech-user-service/src/main/java/com/arman/fintech/user/dto/UserRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fintech-user-service/src/main/java/com/arman/fintech/user/dto/UserResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fintech-user-service/src/main/java/com/arman/fintech/user/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fintech-user-service/src/main/java/com/arman/fintech/user/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fintech-user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fintech-user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fintech-user-service/src/main/java/com/arman/fintech/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech-user-service/src/main/java/com/arman/fintech/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fintech-user-service/src/main/java/com/arman/fintech/user/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech-user-service/src/main/java/com/arman/fintech/user/entity/UserEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fintech-user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fintech-user-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fintech-user-service/src/main/java/com/arman/fintech/user/globalException/DuplicateResourceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fintech-user-service/src/main/java/com/arman/fintech/user/globalException/GlobalExceptionhandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fintech-user-service/src/main/java/com/arman/fintech/user/service/UserServiceImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fintech-user-service/src/main/java/com/arman/fintech/user/service/UserServiceLogging.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fintech-user-service/src/main/java/com/arman/fintech/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fintech-user-service/src/main/java/com/arman/fintech/user/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,29 +60,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.FintechUserServiceApplication (1).executor": "Run",
-    "Application.FintechUserServiceApplication.executor": "Run",
-    "Application.userService.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Spring Boot.FintechAuthServiceApplication.executor": "Run",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "Arman",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.build.tools.auto.reload": "SELECTIVE",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "settings.editor.splitter.proportion": "0.21992032"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FintechUserServiceApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.FintechUserServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.userService.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.FintechAuthServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Arman&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.build.tools.auto.reload&quot;: &quot;SELECTIVE&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.21992032&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\SpringJavaProjects\FinTechBankingPlatform" />
