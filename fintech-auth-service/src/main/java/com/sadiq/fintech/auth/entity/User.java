@@ -1,6 +1,7 @@
 package com.sadiq.fintech.auth.entity;
 
 import jakarta.persistence.*;
+
 import lombok.Data;
 
 import java.time.LocalDateTime;
